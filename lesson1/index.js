@@ -1,14 +1,7 @@
-// alert("helo world");
+ let name = prompt("Атыңызды жазыңыз");
 
-// confirm("helo world");
+console.log(name);
 
-// promt( "what is your name?");
+let age = prompt("Жасыңызды жазыңыз");
 
-// console.log("helo world")
-
-// let name ="alisher"
-
-// alert(name)
-
-let name= prompt("what is your name ")
-alert(name)
+console.log(age);
