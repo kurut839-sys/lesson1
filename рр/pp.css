@@ -1,0 +1,28 @@
+.kat{
+    display: flex;
+    flex-wrap: wrap;
+     gap: 40px;
+justify-content: center;
+
+}
+img{
+    width: 300px;
+}
+  .kat div{
+    border-radius: 14px;
+    box-shadow: 2px 2px 12px;
+    overflow: hidden;
+  }
+  .kat div h1,p{
+    padding-left: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
