@@ -26,7 +26,7 @@ console.log(typeof b);
 // }
 
 if(5<3) {
-    console.log("5больще");
+    console.log("5больще чем 3");
 }else {
     console.log("5 меньще 3")
 }

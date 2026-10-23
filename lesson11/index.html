@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./syle.css">
+</head>
+<body>
+
+    <main class="todo">
+        <h1>To Do List</h1>
+
+        <form id="task-form">
+            <input
+                type="text"
+                id="task-input"
+                autocomplete="off"
+                required
+            >
+
+            <button type="button" id="today-btn">Today</button>
+            <button type="button" id="five-btn">After 5 years</button>
+        </form>
+
+        <section id="today-section">
+            <h2>Today</h2>
+            <ul id="today-list"></ul>
+        </section>
+
+        <section id="five-section">
+            <h2>After 5 years</h2>
+            <ul id="five-list"></ul>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
